@@ -59,6 +59,8 @@ CdkStack(app, "VirtualBankingAssistantCdkStack",
         region=os.getenv('CDK_DEFAULT_REGION')
     ),
 
+    description='Virtual Banking Assistant (uksb-ybsvnefrsb)'
+
     # For explicit account/region deployment, uncomment and modify:
     # env=cdk.Environment(account='123456789012', region='us-east-1'),
 
